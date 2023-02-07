@@ -1,0 +1,330 @@
+.img-responsive{
+  filter: blur(3px);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 2em;
+  z-index: -1;
+  display: inline-block;
+}
+.text-light{
+ font-size: 2.5em;
+font-family: cursive;
+text-align: center !important;
+color: white;
+  text-shadow: 2px 2px 4px #222121;
+  
+}
+.card-deck{
+  padding-top: 30em;
+}
+body{
+  background-color:var(--bs-body-bg);
+}
+.card-deck1{
+  padding-top: 1em;
+
+}
+.btn{
+  color: white;
+  text-shadow: 2px 2px 4px #222121;
+  font-family: cursive;
+}
+.offcanvas{
+  color: rgb(202, 177, 64);
+  text-shadow: 2px #222121;
+  font-family: cursive;
+}
+.font{
+ font-family: cursive;
+  color: black;
+  text-align: center ;
+  text-shadow: 2px 2px 4px rgb(228, 215, 32);
+}
+h4 {
+  font-family: cursive;
+text-align: center ;
+}
+.col-lg-8{
+  padding-top: 1em;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-color: #030303;
+  border-style: outset;
+  margin-top: 2em;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #030303;
+
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.card{
+  padding: 2em;
+ 
+}
+.container1{
+  font-family: cursive;
+  color: rgb(27, 27, 27);
+ 
+}
+.it{
+  height: 340px;
+  width: 350px;
+margin-left: 5em;
+  border-color: #030303;
+border-style: outset;
+}
+.container4{
+  margin-top: 4em;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;}
+
+  .btn{
+    font-size: small;
+    margin-left: 3em;
+  }
+  .heading{
+    font-family: cursive;
+    text-align: center  ;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: rgb(202, 132, 132);
+    text-shadow: 2px 2px 4px #181717;
+    
+  }
+  .heading1{
+    font-size: 33px;
+    color: rgb(76, 52, 182);
+    text-align: center;
+    padding-left: 0.8em;
+    padding-bottom: 0.3em;
+    text-transform:capitalize;
+    text-shadow: 1px 2px 3px #181717;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container9 {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .mg{
+    margin-top: 2em;
+  
+  height: 600px;
+  width: 80%;
+  text-align: left;
+  
+  border: 2px black ;
+  border-style: outset;
+  }
+  #demo{
+    width: 100%;
+  }
+  .container6{
+
+margin-top: 2em;
+ font-weight: bold;
+    text-align: center;
+    color: rgb(17, 17, 17);
+background-color: rgb(228, 211, 60);
+  }
+  .para{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:cursive;
+    font-size: larger;
+   
+    background-color: rgb(233, 233, 187);
+  }
+  /* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Set font of all elements to 'Roboto' */
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+	outline: 0;
+}
+
+body1 {
+	background: #9ccae2;  /* Set background color to #263238*/
+}
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container12 {
+	padding: 12px 24px 24px 24px;
+margin-top: 2em;
+margin-right: 4em;
+	background: #E3F2FD;
+	border-radius: 4px;
+  margin-left: 5em;
+  border: 3px inset black;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+
+  background: #2c77c2;
+	margin: 0 auto;
+	outline: 0;
+	color: rgb(255, 253, 253);
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: rgb(238, 220, 220);
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #efff0c;
+  color: #171718;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+.text{
+  font-family: cursive;
+  font-weight: bold;
+}
+.text:hover{
+  color: rgb(214, 211, 16);
+}
